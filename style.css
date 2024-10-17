@@ -1,0 +1,82 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.btn-outline-violet {
+    color: #6A0DAD;
+    border-color: #6A0DAD;
+}
+
+.btn-outline-violet:hover {
+    background-color: #6A0DAD;
+    color: white;
+}
+
+.btn-outline-violet {
+    border: 2px solid #663398;
+    color: #663398;
+}
+
+/* Dark mode outline button style */
+.dark-mode .btn-outline-violet {
+    border: 2px solid #FFD93D;
+    color: #FFD93D;
+}
+
+/* Hover effect for buttons */
+.btn-outline-violet:hover {
+    background-color: #663398;
+    color: white;
+}
+
+.dark-mode .btn-outline-violet:hover {
+    background-color: #FFD93D;
+    color: black; /* Change text color to black on hover */
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h5{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3rem; 
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.76); 
+}
+
+p{
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0); 
+}
+
+h4.card-title{
+    font-weight: 600;
+    font-style: normal;
+    color: #6A0DAD;
+    font-weight: 400px;
+}
+
+.dark-mode h4.card-title{
+    color: #FFD93D;
+    text-shadow: 2px 2px 2px #ffffff36; 
+}
+
+
+
+p.card-text{
+    font-size: .77rem;
+    color: #6A0DAD;
+    font-weight: 500;
+    font-style: italic;
+    text-shadow: 2px 2px 1px #ffffff93; 
+}
+
+.dark-mode p.card-text{
+    color: #f5d866;
+    font-style: italic;
+    text-shadow: 2px 2px 1px #ffffff00; 
+}
